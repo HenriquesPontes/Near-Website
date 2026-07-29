@@ -23,18 +23,25 @@ const retroByte = localFont({
 
 export const metadata: Metadata = {
   icons: { icon: "/favicon.png" },
-  title: "Near Glasses — Detect Smart Glasses Around You",
+  title: "Nearby Glasses | Detect Smart Glasses Around You",
   description:
-    "Near is an iOS application that scans for Bluetooth signatures from known smart glasses and alerts you when they cross into your proximity. Reclaim Your Privacy.",
+    "Nearby Glasses is an iOS application that scans for Bluetooth signatures from known smart glasses and alerts you when they cross into your proximity. Reclaim your privacy today at nearglasses.com.",
+  keywords: ["NearbyGlasses", "Nearby Glasses", "nearglasses.com", "detect smart glasses", "privacy app", "bluetooth scanner"],
   openGraph: {
-    title: "Near Glasses — Detect Smart Glasses Around You",
+    title: "Nearby Glasses | Detect Smart Glasses Around You",
     description:
-      "Near is an iOS application that scans for Bluetooth signatures from known smart glasses and alerts you when they cross into your proximity. Reclaim Your Privacy.",
-    siteName: "Near Glasses",
+      "Nearby Glasses is an iOS application that scans for Bluetooth signatures from known smart glasses and alerts you when they cross into your proximity. Reclaim your privacy today at nearglasses.com.",
+    siteName: "Nearby Glasses (nearglasses.com)",
+    url: "https://nearglasses.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
+    title: "Nearby Glasses | Detect Smart Glasses Around You",
+    description: "Detect Smart Glasses Around You. Reclaim your privacy today at nearglasses.com.",
+  },
+  alternates: {
+    canonical: "https://nearglasses.com",
   },
 };
 
