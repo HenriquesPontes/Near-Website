@@ -13,7 +13,7 @@ export default function AboutPage() {
         <div className="lg:w-1/3 space-y-4">
           <div className="mb-12">
             <h1 className="font-sans text-5xl font-medium tracking-tight sm:text-6xl">
-              About <span className="font-pixel text-6xl tracking-[0.04em] sm:text-7xl text-[#ff2b00]">Nearby</span>
+              About <span className="font-pixel text-6xl tracking-[0.04em] sm:text-7xl text-[#ff2b00]">Near</span>
             </h1>
             <p className="mt-4 font-sans text-lg font-medium text-foreground/60">
               The privacy-first scanning app.
@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div className="relative">
             <Image 
               src="/Group 1.png" 
-              alt="Nearby Glasses App Interface" 
+              alt="Near Glasses App Interface" 
               width={400} 
               height={800} 
               className="w-full max-w-[320px] drop-shadow-2xl pointer-events-none select-none"
@@ -49,7 +49,7 @@ export default function AboutPage() {
           Your <span className="font-pixel text-[#ff2b00] tracking-[0.04em]">rules</span>.
         </h2>
         <p className="mx-auto max-w-3xl font-sans text-lg font-medium leading-relaxed text-foreground/60 sm:text-xl">
-          Nearby Glasses gives you flexible ways to understand your surroundings — and so much more. 
+          Near Glasses gives you flexible ways to understand your surroundings — and so much more. 
           Tap to scan the area for Bluetooth signatures of known smart glasses <strong className="text-foreground">without compromising your own data.</strong> And when unknown devices enter the space, the radar alerts you so you get more awareness in public spaces.
         </p>
       </section>

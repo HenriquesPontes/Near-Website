@@ -49,7 +49,7 @@ export default function HeroSection() {
         </div>
 
         <h1 className="animate-fade-in font-sans text-5xl font-medium leading-none tracking-tight opacity-0 sm:text-7xl md:text-[87px] [animation-delay:0.2s]">
-          Nearby{" "}
+          Near{" "}
           <span className="font-pixel text-6xl tracking-[0.04em] sm:text-8xl md:text-[108px]">
             Glasses
           </span>
@@ -57,7 +57,7 @@ export default function HeroSection() {
 
         <p className="max-w-2xl animate-fade-in-up font-sans text-lg font-medium tracking-tight opacity-0 [animation-delay:0.2s] sm:text-xl">
           Detect Smart Glasses Around You. Reclaim Your Privacy.
-          Nearby Glasses is an iOS application that scans for Bluetooth signatures from known smart glasses and alerts you when they cross into your proximity.
+          Near Glasses is an iOS application that scans for Bluetooth signatures from known smart glasses and alerts you when they cross into your proximity.
         </p>
 
         <div className="flex flex-col items-center gap-4">
