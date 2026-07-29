@@ -1,6 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | Near Glasses",
+};
+
 export default function TermsPage() {
   return (
     <main className="min-h-screen">

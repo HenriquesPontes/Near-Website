@@ -3,6 +3,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FeatureList from "@/components/FeatureList";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Near Glasses | The Privacy-First Scanning App",
+  description: "Learn more about Near Glasses, the premier iOS application designed specifically to scan for Bluetooth signatures from known smart glasses and alert users.",
+};
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen text-foreground overflow-hidden">

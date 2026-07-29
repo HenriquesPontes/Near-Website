@@ -1,6 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "End User License Agreement | Near Glasses",
+};
+
 export default function EULAPage() {
   return (
     <main className="min-h-screen">
