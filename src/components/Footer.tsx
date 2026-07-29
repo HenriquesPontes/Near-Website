@@ -6,19 +6,19 @@ export default function Footer() {
 
         <div className="flex items-center gap-4 lg:gap-6">
           <a
-            href="https://www.nearglasses.com/privacy"
+            href="/privacy"
             className="transition-opacity hover:opacity-100"
           >
             PRIVACY
           </a>
           <a
-            href="https://www.nearglasses.com/terms"
+            href="/terms"
             className="transition-opacity hover:opacity-100"
           >
             TERMS
           </a>
           <a
-            href="https://www.nearglasses.com/eula"
+            href="/eula"
             className="transition-opacity hover:opacity-100"
           >
             EULA
