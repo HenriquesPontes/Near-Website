@@ -12,7 +12,7 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-6 sm:flex">
           <Link
-            href="/#beta"
+            href="/#hero"
             className="font-sans text-sm font-medium transition-opacity duration-200 hover:opacity-70"
           >
             Get Started
