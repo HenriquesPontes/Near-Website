@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FeatureList from "@/components/FeatureList";
+import FeaturesSection from "@/components/FeaturesSection";
 
 import { Metadata } from "next";
 
@@ -85,6 +86,8 @@ export default function AboutPage() {
         </p>
       </section>
 
+      <FeaturesSection />
+
       {/* SECTION 4: Diagonal Phones (Inspired by Image 4) */}
       <section className="mx-auto max-w-6xl px-6 py-16 text-center overflow-hidden sm:py-24">
         <h2 className="mb-6 font-sans text-4xl font-medium tracking-tight sm:text-6xl lg:text-[80px] lg:leading-[1.1]">
@@ -96,6 +99,16 @@ export default function AboutPage() {
           Near has a powerful detection engine with robust range, and a <strong className="text-foreground">zero-telemetry architecture with unmatched security</strong> compared to cloud-based alternatives. And now logs are stored entirely on-device by default. So you&apos;ll get stunning, super-fast alerts — up close or far away, indoors and out. So you can protect your privacy — and beyond.
         </p>
         
+      </section>
+
+      {/* SECTION 5: Developer Info */}
+      <section className="mx-auto max-w-4xl px-6 py-16 text-center sm:py-24">
+        <h2 className="mb-6 font-sans text-3xl font-medium tracking-tight sm:text-4xl lg:text-[50px] lg:leading-[1.1]">
+          Built by <span className="font-pixel text-[#ff2b00] tracking-[0.04em]">Henriques</span>
+        </h2>
+        <p className="mx-auto max-w-2xl font-sans text-lg font-medium leading-relaxed text-foreground/80 sm:text-xl">
+          Near was developed by Henriques, a former wearable engineer at Meta. Leveraging deep expertise in consumer hardware and mobile architecture, Near was designed from the ground up to empower users with true environmental awareness and uncompromising privacy.
+        </p>
       </section>
 
       <Footer />

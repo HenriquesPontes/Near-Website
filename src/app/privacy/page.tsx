@@ -24,7 +24,10 @@ export default function PrivacyPage() {
           
           <section>
             <p className="font-medium text-foreground opacity-100">
-              At Near, we believe privacy is a fundamental human right. Our application is designed to help you reclaim your privacy from intrusive smart glasses and recording devices. Because our core mission is privacy, we have built the app to be completely private by design.
+              <strong>Zero Telemetry. Zero Analytics. Zero Data Collection.</strong>
+            </p>
+            <p className="mt-4 font-medium text-foreground opacity-100">
+              At Near, we believe privacy is a fundamental human right. Our application is designed to help you reclaim your privacy from intrusive smart glasses and recording devices. Because our core mission is privacy, we have built the app to be completely private by design. We have no backend servers, and we physically cannot access your data.
             </p>
           </section>
 

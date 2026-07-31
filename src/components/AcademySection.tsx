@@ -44,7 +44,7 @@ export default function AcademySection() {
           </h2>
 
           <p className="mt-6 max-w-2xl font-sans text-base font-medium leading-snug tracking-tight opacity-80 sm:text-lg">
-            Near does not track you. It collects no telemetry, contains no ads, and does not phone home. All detected device logs are stored locally on your device and can be cleared at any time.
+            Near is a premium, proprietary product built on a zero-trust model. We cannot see your data even if we wanted to. All detected device logs are stored locally on your device and can be cleared at any time. Our business model is aligned with your privacy—no data monetization, ever.
           </p>
 
           <ul className="mt-10 grid grid-cols-1 gap-x-8 gap-y-4 md:grid-cols-2">

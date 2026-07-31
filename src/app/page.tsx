@@ -4,6 +4,7 @@ import BuildOnAutopilot from "@/components/BuildOnAutopilot";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import AcademySection from "@/components/AcademySection";
 import BetaSection from "@/components/BetaSection";
+import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
       <HowItWorksSection />
       <AcademySection />
       <BuildOnAutopilot />
+      <FAQSection />
       <BetaSection />
       <Footer />
     </main>
